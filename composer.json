@@ -1,0 +1,19 @@
+{
+    "name": "layered/order-follow-up",
+    "description": "Order Follow Up for WooCommerce",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Layered",
+            "email": "hello@layered.studio"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Layered\\OrderFollowUp\\": "src/"
+        }
+    }
+}
