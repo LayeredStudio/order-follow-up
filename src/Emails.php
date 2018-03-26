@@ -21,11 +21,14 @@ class Emails {
 
 	public static function addEmails($email_classes) {
 		$email_classes['Order_Follow_Up'] = new \Layered\OrderFollowUp\Emails\OrderFollowUpEmail;
+		$email_classes['Review_Approved'] = new \Layered\OrderFollowUp\Emails\ReviewApprovedEmail;
 
 		return $email_classes;
 	}
 
 	public static function addEmailsActions($emailActions) {
+		$emailActions[] = 'wp_insert_comment';
+		$emailActions[] = 'transition_comment_status';
 		$emailActions[] = 'woocommerce_order_follow_up';
 
 		return $emailActions;
