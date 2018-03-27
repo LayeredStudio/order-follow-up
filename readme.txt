@@ -7,11 +7,11 @@ Stable tag: trunk
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Engage with your customers through email after a completed order or approved product review
+Engage customers through email after a completed order or approved product review
 
 == Description ==
 
-Engage with customers after they complete a WooCommerce shop action
+Engage customers after they complete a WooCommerce shop action
 
 At the moment the plugin can send these emails:
 

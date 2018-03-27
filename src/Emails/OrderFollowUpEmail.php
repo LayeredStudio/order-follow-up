@@ -4,7 +4,6 @@ namespace Layered\OrderFollowUp\Emails;
 /**
  * Post order email
  */
-
 class OrderFollowUpEmail extends \WC_Email {
 
 	/**

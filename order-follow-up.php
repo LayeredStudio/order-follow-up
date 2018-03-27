@@ -2,7 +2,7 @@
 /*
 Plugin Name: Order Follow Up for WooCommerce
 Plugin URI: https://layered.studio
-Description: Engage with your customers through email after a completed order or approved product review
+Description: Engage customers through email after a completed order or approved product review
 Version: 0.1
 Text Domain: layered
 Author: Layered
