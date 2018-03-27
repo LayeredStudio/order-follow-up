@@ -61,7 +61,7 @@ class OrderFollowUpEmail extends \WC_Email {
 			if ($this->is_enabled() && $this->get_recipient()) {
 				$this->send( $this->get_recipient(), $this->get_subject(), $this->get_content(), $this->get_headers(), $this->get_attachments() );
 				$this->order->add_order_note(sprintf(__('%s email sent to the customer.', 'layered'), $this->title));
-				//update_post_meta($orderId, '_order_follow_up_email_sent', 1);
+				update_post_meta($orderId, '_order_follow_up_email_sent', 1);
 			}
 		}
 	}

@@ -41,8 +41,7 @@ class Emails {
 		$orders = wc_get_orders([
 			'status'			=>	'completed',
 			'date_completed'	=>	date('Y-m-d', time() - 3600 * 24 * ($delay + self::$leeway)) . '...' . date('Y-m-d', time() - 3600 * 24 * $delay),
-			'return'			=>	'ids',
-			'limit'				=>	3
+			'return'			=>	'ids'
 		]);
 
 		foreach ($orders as $order) {
